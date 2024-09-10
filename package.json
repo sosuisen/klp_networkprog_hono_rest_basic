@@ -1,5 +1,5 @@
 {
-  "name": "old-dew-27b3",
+  "name": "hono-rest-basic",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy --minify",
@@ -9,6 +9,7 @@
     "hono": "^4.5.11"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.8.3",
     "@cloudflare/workers-types": "^4.20240903.0",
     "wrangler": "^3.57.2"
   }
